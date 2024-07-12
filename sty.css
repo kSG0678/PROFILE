@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.hero-section{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/023/132/466/non_2x/3d-render-of-luxury-hotel-room-ai-generated-photo.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0,0 green,0 blue,0.5 alpha);
+    height: 100vh;
+    position: relative;
+    text-align:center;
+ font-family: 'Montserrat', sans-serif;
+}
+.hero-text{
+    color: white;
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.book-button,
+.know-button
+{
+    background-color: aqua;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor:pointer;
+}
+.amenities{
+text-align: center;
+background-color: aqua;
+}
+.amenities ul{
+    display: inline-block;
+    text-align: left;
+    margin-top: 10px;
+}
+.about-us{
+    float: left;
+    width: 50%;
+    margin: 10px 10px;
+    text-align: center;
+}
+.about-section  h1{
+text-align: center;
+margin: 10px 0px;
+text-decoration: underline;
+}

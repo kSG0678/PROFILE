@@ -1,0 +1,91 @@
+
+    body {
+      background-color: #b0b0b6;
+      font-family:'Times new roman';
+    }
+    
+    nav {
+      background-color: hsla(0, 8%, 5%, 0.89);
+      color: #1c1c29;
+      padding: 10px;
+      /* margin-top: -8px; */
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    
+    nav ul li {
+      display: inline-block;
+    }
+    
+    nav ul li a {
+      color: #fff;
+      padding: 10px;
+      text-decoration: none;
+    }
+    .container{
+      display: flex;
+    }
+
+    p{
+      color: black;
+    }
+    p span{
+      color: rgb(19, 16, 19);
+    }
+    #profile{
+      flex-basis: 35%;
+    }
+    #profile img {
+      border-radius:130%;
+      box-shadow: 3px 3px 3px rgb(0, 0, 0),-3px -3px 3px rgb(29, 15, 20);
+      width: 290px;
+      height: 350px;
+
+    }
+    #about{
+      flex-basis: 65%;
+    }
+    h2{
+      font-size: 2rem;
+    }
+    .hobbies {
+      margin-top: 20px;
+
+    }
+    
+    .social-media {
+      align-items: center;
+      margin-top: 20px;
+    }
+    
+    .social-media img {
+      width: 60px;
+      height:60px;
+      margin-right:20px;
+    }
+    a i{
+      font-size: 1.4rem;
+      display: block;
+      margin-left: 30px;      
+    }
+    #geolocation{
+      margin-top: 10px;
+    }
+    #geolocation iframe{
+      width  :900px;
+      height: 300px;
+
+    }
+    iframe{
+      width: 200px;
+      height: 300px;
+      margin-left: 20px;
+      border-radius: 10px;
+      box-shadow: 2px 2px 3px rgb(11, 12, 11);
+    }
+  
